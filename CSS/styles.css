@@ -78,7 +78,6 @@ h4 {
 @media screen and (max-width:720px) {
 }
 @media screen and (max-width:620px) {
-    
 }
 #social {
     display: flex;
@@ -110,6 +109,7 @@ h4 {
   .background {
     background: url(/IMAGES/background.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
   }
   h5 {
     color: white;
@@ -126,4 +126,40 @@ label{
     margin-top: 250px;
     font-size: 16px;
 }
+.imagecontainer{
+    display: grid;
+    margin-left: 340px;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "Data1      Data2"
+    "Data3      Data4";
+}
+#bread {
+    grid-area: Data1;
+}
+#rolls{
+    grid-area: Data2;
+}
+#cheese {
+    grid-area: Data3;
+}
+#toastedRoll {
+    grid-area: Data4;
+
+}
+h6 {
+    font-size: 20px;
+    margin-left: 90px;
+    color: white;
+}
+p2 {
+    color: white;
+    margin-bottom: 200px;
+}
+table{
+    border: 1px solid burlywood;
+}
+
 
