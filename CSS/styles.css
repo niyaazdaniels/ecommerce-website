@@ -30,7 +30,7 @@ a:hover {
     background-color: white;
     color: black;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
 }
 h1 {
     text-align: center;
@@ -46,11 +46,13 @@ h2 {
     margin-left: 550px;
     margin-top: 300px;
 }
-p {
+p1 {
     color: white;
     margin-left: 660px;
     margin-top: 10px;
     font-size: 18px;
+    margin-bottom: 500px;
+    
 }
 @media screen and (max-width:1080px) {
     
@@ -73,8 +75,10 @@ h4 {
     margin-left: 100px;
     font-size: 20px;
 }
-
-@media screen and (max-width:700px) {
+@media screen and (max-width:720px) {
+}
+@media screen and (max-width:620px) {
+    
 }
 #social {
     display: flex;
@@ -84,7 +88,6 @@ h4 {
     align-items: center;
     padding: 5px;
   }
-  
   #social div {
     display: flex;
   }
@@ -96,10 +99,31 @@ h4 {
   .social-links {
     justify-content: space-between;
   }
-  
   .social-links i {
     margin: 0 3px;
   }
-  
-
+  footer{
+    top: 781px;
+    position: fixed;
+    width: 100%;
+  }
+  .background {
+    background: url(/IMAGES/background.jpg);
+    background-size: 100%;
+  }
+  h5 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 30px;
+    margin-left: 740px;
+    margin-top: 200px;
+  }
+  .container {
+    text-align: center;
+  }
+label{
+    color: white;
+    margin-top: 250px;
+    font-size: 16px;
+}
 
