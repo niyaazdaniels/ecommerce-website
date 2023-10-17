@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+nav {
+    top: 0;
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+nav ul{
+   text-align: center;
+   padding: 15px;
+   word-spacing: 20px;
+}
+nav ul li {
+    display: inline;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    letter-spacing: 5px;
+    padding: 15px;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+h1 {
+    display: flexbox;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    color: black;
+    background-color: lemonchiffon; }
+
+    #social {
+        display: flex;
+        justify-content: space-between;
+        background-color: burlywood;
+        color: black;
+        align-items: center;
+        padding: 5px;
+      }
+      #social div {
+        display: flex;
+      }
+      #social p {
+        margin-top: 12px;
+        margin-right: 20px;
+      }
+      
+      .social-links {
+        justify-content: space-between;
+      }
+      .social-links i {
+        margin: 0 3px;
+      }
+      footer{
+        position: absolute;
+        width: 100%;
+       bottom: 0;
+      }
+      body {
+        background: url(/IMAGES/background.jpg)no-repeat;
+        background-size: 100%;
+        opacity: 0.5s;
+        max-width: 100%;
+      }
+      article {
+        margin: 150px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        display: block;
+        font-size: 20px;
+      }
+      @media screen and (max-width:1080px) {
+      }
+      @media screen and (max-width:720px) {
+      }
+      @media screen and (max-width:420px){
+        
+      }

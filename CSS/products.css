@@ -1,0 +1,120 @@
+.imagecontainer{
+    display: grid;
+    margin-left: 170px;
+    margin-top: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Data1      Data2       Data3"
+    "Data4      Data5       Data6";
+}
+#bread {
+    grid-area: Data1;
+}
+#rolls{
+    grid-area: Data2;
+}
+#cheese {
+    grid-area: Data3;
+}
+#toastedRoll {
+    grid-area: Data4;
+}
+#bread2 {
+    grid-area: Data5;
+}
+#doughnut {
+    grid-area: Data6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+nav {
+    top: 0;
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+nav ul{
+   text-align: center;
+   padding: 15px;
+   word-spacing: 20px;
+}
+nav ul li {
+    display: inline;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    letter-spacing: 5px;
+    padding: 15px;
+}
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+h1 {
+    display: flexbox;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    color: black;
+    background-color: lemonchiffon; }
+
+    #social {
+        display: flex;
+        justify-content: space-between;
+        background-color: burlywood;
+        color: black;
+        align-items: center;
+        padding: 5px;
+      }
+      #social div {
+        display: flex;
+      }
+      #social p {
+        margin-top: 12px;
+        margin-right: 20px;
+      }
+      
+      .social-links {
+        justify-content: space-between;
+      }
+      .social-links i {
+        margin: 0 3px;
+      }
+      footer{
+        position: relative;
+        width: 100%;
+        bottom: 0;
+      }
+    
+      @media screen and (max-width:1080px) {
+      }
+      @media screen and (max-width:720px) {
+      }
+      @media screen and (max-width:420px){
+        
+      }
+      @keyframes productChanger {
+        0% {
+            background: linear-gradient(burlywood,blanchedalmond, white);
+        }
+        100% {
+            background: linear-gradient(white, blanchedalmond, burlywood);
+        }
+    }
+      body {
+        animation-name: productChanger;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+      
