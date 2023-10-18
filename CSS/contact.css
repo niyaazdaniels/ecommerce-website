@@ -59,9 +59,10 @@ a:hover {
     bottom: 0;
     position: absolute;
     width: 100%;
+
   }
 body {
-    background-color: tan;
+   background: linear-gradient(to bottom left, sandybrown 50%, burlywood 50%) no-repeat;
   }
 article {
     text-align: center;
@@ -91,9 +92,10 @@ h1 {
   display: flex;
   justify-content:center;
   height: 100%;
+  
 }
 form {
   display: flex;
- flex-direction: column  ;
+  flex-direction: column;
 }
 
