@@ -61,7 +61,7 @@ a:hover {
     width: 100%;
   }
 body {
-    background: linear-gradient(white ,burlywood,chocolate) no-repeat;
+    background-color: tan;
   }
 article {
     text-align: center;
@@ -80,27 +80,20 @@ article {
 }
 label {
   font-family: 'Courier New', Courier, monospace;
-
+  font-size: 18px;
 }
 h1 {
   text-align: center;
   color: white;
   margin-top: 150px;
 }
+.container {
+  display: flex;
+  justify-content:center;
+  height: 100%;
+}
 form {
-  display: block;
-  box-shadow: 0 4px 8px rgba (0, 0, 0, 0.5);
+  display: flex;
+ flex-direction: column  ;
 }
-@keyframes productChanger {
-  0% {
-      background: linear-gradient(burlywood,blanchedalmond, white);
-  }
-  100% {
-      background: linear-gradient(white, blanchedalmond, burlywood);
-  }
-}
-body {
-  animation-name: productChanger;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-}
+
