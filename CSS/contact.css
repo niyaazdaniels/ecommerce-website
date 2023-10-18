@@ -36,7 +36,7 @@ a:hover {
 #social {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: burlywood;
     color: white;
     align-items: center;
     padding: 5px;
@@ -56,9 +56,8 @@ a:hover {
     margin: 0 3px;
   }
   footer{
-    display: inline;
     bottom: 0;
-    position: relative;
+    position: absolute;
     width: 100%;
   }
 body {

@@ -37,8 +37,8 @@ a:hover {
 #social {
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    background-color: burlywood;
+    color: black;
     align-items: center;
     padding: 5px;
   }
@@ -57,9 +57,8 @@ a:hover {
     margin: 0 3px;
   }
   footer{
-    display: inline;
     bottom: 0;
-    position: relative;
+    position: absolute;
     width: 100%;
   }
 body {
@@ -71,6 +70,7 @@ article {
     }
 article h3 {
     font-size: 25px;
+    padding: 12px;
 }
 .location {
     margin-left: 650px; }
