@@ -78,7 +78,7 @@ article h3 {
         font-size: 20px;
     }
 @media screen and (max-width:620px) {
-    .head, body, .footer {
+    head, body, footer, nav, img {
         width: 100%;
     }
     

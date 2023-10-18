@@ -76,3 +76,8 @@ nav a:hover {
     transition: 0.2s;
     transition: scale (1.5);
 }
+@media screen and (max-width:620px) {
+    head, body, footer ,nav{
+        width: 100%;
+    }
+}

@@ -70,7 +70,7 @@ article {
     display: block;
     }
 @media screen and (max-width:620px) {
-    .head, body, .footer {
+    head, body, footer ,nav {
         width: 100%;
     }
 }

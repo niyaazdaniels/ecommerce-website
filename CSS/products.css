@@ -165,9 +165,11 @@ h1 {
       }
       @media screen and (max-width:720px) {
       }
-      @media screen and (max-width:420px){
-        
-      }
+      @media screen and (max-width:620px) {
+        .head, body, .footer {
+            width: 100%;
+        }
+    }
       @keyframes productChanger {
         0% {
             background: linear-gradient(burlywood,blanchedalmond, white);
