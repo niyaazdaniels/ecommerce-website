@@ -67,7 +67,7 @@ h1 {
       footer{
         position: absolute;
         width: 100%;
-       bottom: 0;
+        bottom: 0;
       }
       body {
         background: url(/IMAGES/background.jpg)no-repeat;
@@ -84,9 +84,12 @@ h1 {
         font-size: 20px;
       }
       @media screen and (max-width:1080px) {
+        footer, nav, body{
+          max-height: 100% ;
+        }
       }
       @media screen and (max-width:720px) {
       }
-      @media screen and (max-width:420px){
-        
+      @media screen and (max-width:420px) {
+    
       }

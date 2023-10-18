@@ -115,6 +115,7 @@ h1 {
       body {
         animation-name: productChanger;
         animation-duration: 6s;
+        animation-play-state: running;
         animation-iteration-count: infinite;
       }
       
