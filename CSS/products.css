@@ -3,9 +3,10 @@
     box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2);
     max-width: 300px;
     margin: 2px;
+    transition: transform .2s;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 170px;
+    margin-left: 200px;
     margin-top: 125px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -15,6 +16,7 @@
     "Data7      Data8       Data9       Data12"   
     ;
 }
+
 .price {
     color: darkgrey;
     font-size: 22px;
@@ -79,6 +81,7 @@
 #bananabread {
     grid-area: Data11;
     margin: 3px;
+    
 }
 /* #applepie {
     grid-area: Data12;
@@ -96,7 +99,7 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: burlywood;
+    background: radial-gradient(white, burlywood);
 }
 nav ul{
    text-align: center;
@@ -125,7 +128,10 @@ h1 {
     padding-bottom: 15px;
     padding-top: 20px;
     color: black;
-    background-color: lemonchiffon; }
+    background-color: lemonchiffon;
+    margin-right: 160px;
+    width: 100%;
+}
 
     #social {
         display: flex;
@@ -176,4 +182,13 @@ h1 {
         animation-play-state: running;
         animation-iteration-count: infinite;
       }
-      
+      .checkout {
+        float: right;
+        margin: 0 auto;
+      }
+      /* .imagecontainer ,img:hover{
+        transition: scale(1.5);
+      }
+      .imagecontainer ,img{
+        transition: 0.4s;
+      } */

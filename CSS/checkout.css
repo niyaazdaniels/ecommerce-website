@@ -1,0 +1,78 @@
+table, tr, td{
+    border: none;
+    background-color: oldlace;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 110px;
+    width: 80%;
+    height: 65%;
+    box-shadow: 0 16px 32px rgba(78, 41, 104, 0.4);
+}
+th{
+    background:linear-gradient(burlywood, white);
+    margin: 0 auto;
+    padding: 10px;
+}
+td {
+    background-color: white;
+}
+body {
+    background: linear-gradient(to bottom left,burlywood 50%, white 50%) no-repeat;
+}
+h1 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    margin-top: 50px;
+}
+nav {
+    list-style-type: none;
+  
+}
+nav li {
+    text-align: center;
+    margin-right: 100px;
+   
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: tan;
+    padding: 10px;
+    margin-bottom: 10px;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.8s ease-in-out;
+}
+nav a:hover {
+    color:black;
+    box-shadow: 0 5px 15px rgba(145, 92, 184, .4);
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.payment {
+    text-align: center;
+    margin: 30px;
+    margin-left: 1170px;
+}
+.payment a {
+ text-decoration: none;
+ color: black;
+ font-family: Montserrat;
+ letter-spacing: 3px;
+ background-color: grey;
+ padding: 15px;
+ border-radius: 3px;
+ font-weight: bold;
+}
+.payment a:hover{
+    transition: 0.2s;
+    transition: scale (1.5);
+}
