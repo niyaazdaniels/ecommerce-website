@@ -1,0 +1,35 @@
+/* background image */
+body {
+    background: url(/IMAGES/background.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+ /* Welcome Text*/ 
+}  
+article {
+    margin: 150px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    font-size: 16px;
+}
+/* Navbar */
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 2px;
+    text-wrap: wrap;
+}
+/* anchor hover */
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+/* footer links */
+footer{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
