@@ -1,31 +1,89 @@
 .imagecontainer{
     display: grid;
+    box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 170px;
-    margin-top: 250px;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 125px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    "Data1      Data2       Data3"
-    "Data4      Data5       Data6";
+    "Data1      Data2       Data3       Data10"
+    "Data4      Data5       Data6       Data11"
+    "Data7      Data8       Data9       Data12"   
+    ;
+}
+.price {
+    color: darkgrey;
+    font-size: 22px;
+}
+.imagecontainer p {
+    padding: 5px;
+}
+.imagecontainer button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.imagecontainer ,button:hover {
+    opacity: 0.7s;
 }
 #bread {
     grid-area: Data1;
+    margin: 3px;
 }
 #rolls{
     grid-area: Data2;
+    margin: 3px;
 }
 #cheese {
     grid-area: Data3;
+    margin: 3px;
 }
 #toastedRoll {
     grid-area: Data4;
+    margin: 3px;
 }
 #bread2 {
     grid-area: Data5;
+    margin: 3px;
 }
 #doughnut {
     grid-area: Data6;
+    margin: 3px;
 }
+#cake {
+    grid-area: Data8;
+    margin: 3px;
+}
+#custardslice {
+    grid-area: Data7;
+    margin: 3px;
+}
+#croissant {
+    grid-area: Data9;
+    margin: 3px;
+}
+#brownie {
+    grid-area: Data10;
+    margin: 3px;
+}
+#bananabread {
+    grid-area: Data11;
+    margin: 3px;
+}
+/* #applepie {
+    grid-area: Data12;
+    margin: 3px; */
+
 * {
     margin: 0;
     padding: 0;
