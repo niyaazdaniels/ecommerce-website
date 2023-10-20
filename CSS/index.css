@@ -99,8 +99,8 @@ h1 {
       text-align: center;
       margin-top: 255px;
     }
-
-    /* Animation */
+        /* Products Page */
+    /* Product Page Animation */
     @keyframes productChanger {
       0% {
           background: linear-gradient(burlywood,blanchedalmond, white);
@@ -109,7 +109,6 @@ h1 {
           background: linear-gradient(white, blanchedalmond, burlywood);
       }
   }
-  /* Products Page */
     #products {
       animation-name: productChanger;
       animation-duration: 6s;
@@ -159,6 +158,7 @@ h1 {
   .imagecontainer ,button:hover {
       opacity: 0.7s;
   }
+  /* Images */
   #bread {
       grid-area: Data1;
       margin: 3px;
@@ -203,7 +203,7 @@ h1 {
       grid-area: Data11;
       margin: 3px;
   }
-  /* Contact */
+  /* Contact Page*/
 .container {
   display: block;
   text-align: center;
@@ -229,13 +229,17 @@ form {
   display: flex;
   flex-direction: column;
 }
+/* contact page background */
 #contact {
 background: linear-gradient(to bottom left, sandybrown 50%, burlywood 50%);
 background-size: 100%;
 }
+/* Checkout Page */
 #Checkout {
   background: linear-gradient(to bottom left,burlywood 50%, white 50%) no-repeat;
 }
+
+/* Table */
 table, tr, td{
   border: none;
   background-color: oldlace;
@@ -254,6 +258,7 @@ th{
 td {
   background-color: white;
 }
+/* heading */
 h3 {
   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -262,6 +267,7 @@ h3 {
   margin-top: 50px;
   font-size: 40px;
 }
+/* No Interactive Anchor Tag */
 .payment {
   text-align: center;
   margin: 30px;
