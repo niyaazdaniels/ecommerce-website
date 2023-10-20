@@ -65,7 +65,7 @@ h1 {
         margin: 0 3px;
       }
       footer{
-        position: absolute;
+        position: relative;
         width: 100%;
         bottom: 0;
       }
@@ -83,18 +83,204 @@ h1 {
         display: block;
         font-size: 20px;
       }
-      @media screen and (max-width:1080px) {
-        footer, nav, body{
-          max-height: 100% ;
-        }
+      @media screen and (max-width:700px){
+        
       }
-      @media screen and (max-width:720px) {
+      @media screen and (max-width:300px) {
+        
       }
-      @media screen and (max-width:420px) {
-    
-      }
-      @media screen and (max-width:620px) {
-        head, body, footer nav{
-            width: 100%;
-        }
+    /* About Page */
+    #about {
+      background: linear-gradient(white ,burlywood,chocolate);
+      background-size: 100%;
+     }
+     /* Maps Location */
+    .location {
+      text-align: center;
+      margin-top: 255px;
     }
+
+    /* Animation */
+    @keyframes productChanger {
+      0% {
+          background: linear-gradient(burlywood,blanchedalmond, white);
+      }
+      100% {
+          background: linear-gradient(white, blanchedalmond, burlywood);
+      }
+  }
+  /* Products Page */
+    #products {
+      animation-name: productChanger;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+    }
+    .checkout {
+      float: right;
+      margin: 0 auto;
+    }
+    /* Products Grid */
+    .imagecontainer{
+      display: grid;
+      box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: 2px;
+      transition: transform .2s;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 200px;
+      margin-top: 125px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: 
+      "Data1      Data2       Data3       Data10"
+      "Data4      Data5       Data6       Data11"
+      "Data7      Data8       Data9       Data12"   
+      ;
+  }
+  .price {
+      color: darkgrey;
+      font-size: 22px;
+  }
+  .imagecontainer p {
+      padding: 5px;
+  }
+  .imagecontainer button {
+      border: none;
+      outline: 0;
+      padding: 10px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+  }
+  .imagecontainer ,button:hover {
+      opacity: 0.7s;
+  }
+  #bread {
+      grid-area: Data1;
+      margin: 3px;
+  }
+  #rolls{
+      grid-area: Data2;
+      margin: 3px;
+  }
+  #cheese {
+      grid-area: Data3;
+      margin: 3px;
+  }
+  #toastedRoll {
+      grid-area: Data4;
+      margin: 3px;
+  }
+  #bread2 {
+      grid-area: Data5;
+      margin: 3px;
+  }
+  #doughnut {
+      grid-area: Data6;
+      margin: 3px;
+  }
+  #cake {
+      grid-area: Data8;
+      margin: 3px;
+  }
+  #custardslice {
+      grid-area: Data7;
+      margin: 3px;
+  }
+  #croissant {
+      grid-area: Data9;
+      margin: 3px;
+  }
+  #brownie {
+      grid-area: Data10;
+      margin: 3px;
+  }
+  #bananabread {
+      grid-area: Data11;
+      margin: 3px;
+  }
+  /* Contact */
+.container {
+  display: block;
+  text-align: center;
+  margin-top: 30px
+}
+label {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+#Form{
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  justify-content:center;
+  height: 100%;
+  
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+#contact {
+background: linear-gradient(to bottom left, sandybrown 50%, burlywood 50%);
+background-size: 100%;
+}
+#Checkout {
+  background: linear-gradient(to bottom left,burlywood 50%, white 50%) no-repeat;
+}
+table, tr, td{
+  border: none;
+  background-color: oldlace;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 110px;
+  width: 80%;
+  height: 65%;
+  box-shadow: 0 16px 32px rgba(78, 41, 104, 0.4);
+}
+th{
+  background:linear-gradient(burlywood, white);
+  margin: 0 auto;
+  padding: 10px;
+}
+td {
+  background-color: white;
+}
+h3 {
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  word-spacing: 20px;
+  letter-spacing: 10px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.payment {
+  text-align: center;
+  margin: 30px;
+  margin-left: 1170px;
+}
+.payment a {
+text-decoration: none;
+color: black;
+font-family: Montserrat;
+letter-spacing: 3px;
+background-color: grey;
+padding: 15px;
+border-radius: 3px;
+font-weight: bold;
+}
+.payment a:hover{
+  transition: 0.2s;
+  transition: scale (1.5);
+}
+
+
+  
